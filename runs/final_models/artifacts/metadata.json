@@ -1,0 +1,54 @@
+{
+  "targets": [
+    "Vavg_V",
+    "E_hull_meV",
+    "E_g",
+    "dV_percent",
+    "density_g_cm3"
+  ],
+  "Vavg_V": {
+    "MAE": 0.28877174065507377,
+    "features": [
+      "x_Fe",
+      "x_Mn",
+      "x_Ni",
+      "x_Mg"
+    ]
+  },
+  "E_hull_meV": {
+    "MAE": 22.089826001618462,
+    "features": [
+      "x_Fe",
+      "x_Mn",
+      "x_Ni",
+      "x_Mg"
+    ]
+  },
+  "E_g": {
+    "MAE": 0.754518836842251,
+    "features": [
+      "x_Fe",
+      "x_Mn",
+      "x_Ni",
+      "x_Mg"
+    ]
+  },
+  "dV_percent": {
+    "MAE": 3.5845964672567736,
+    "features": [
+      "x_Fe",
+      "x_Mn",
+      "x_Ni",
+      "x_Mg"
+    ]
+  },
+  "density_g_cm3": {
+    "MAE": 0.5925955460438133,
+    "features": [
+      "x_Fe",
+      "x_Mn",
+      "x_Ni",
+      "x_Mg"
+    ]
+  }
+}
