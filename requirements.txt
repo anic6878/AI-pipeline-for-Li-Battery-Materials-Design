@@ -1,0 +1,16 @@
+numpy==1.26.4
+pandas
+scikit-learn
+matplotlib
+joblib
+tqdm
+
+pymatgen
+mp-api
+matminer
+
+torch==2.2.2
+gpytorch==1.11
+botorch==0.11.0
+requests
+charset-normalizer
