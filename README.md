@@ -580,8 +580,8 @@ export MP_API_KEY="your_actual_key"
 
 ./run_all.sh
 
-## 8. Quick Start
-# Clone
+## 8. Clone
+
 git clone (https://github.com/anic6878/AI-pipeline-for-Li-Battery-Materials-Design)
 
 
