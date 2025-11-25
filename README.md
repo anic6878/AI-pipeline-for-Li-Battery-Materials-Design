@@ -126,7 +126,7 @@ scripts/
 ```
 
 <p align="center">
-  <img src="figures/Dataset.png" width="900">
+  <img src="figures/Dataset.png" width="1000">
   <br>
   <em>Figure 4: Snapshot of the data cleaning stages and different data files used for training & validation.</em>
 </p>
@@ -192,7 +192,7 @@ V_{delith}(x) = x V_{FePO_4} + (1 - x) V_{MnPO_4}
 $$
 
 $$
-\Delta V\% = 100 * \frac{V_{lith}(x) - V_{delith}(x)}{V_{delith}(x)}
+\Delta V\% = 100 * {V_{lith}(x) - V_{delith}(x)}/{V_{delith}(x)}
 $$
 
 $$
