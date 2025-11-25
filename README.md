@@ -124,9 +124,19 @@ scripts/
 ├── build_training_from_mp.py
 ├── build_swelling_dataset.py
 ```
-And the required (below-mentioned) data files can be located in `runs/run1/data' folder - `lmfp_vegard.csv`; `mp_summary.csv`; `swelling_labels.csv' 
+And the required (below-mentioned) data files can be located in `runs/run1/data' folder - `lmfp_vegard.csv` , `mp_summary.csv` , `swelling_labels.csv' 
 
 And in `data` folder as `train.csv` and `val.csv`
+
+**1. MP summary data** – fetched data from raw Materials Project Database (relevant structure info)
+
+**2. Training data** - (Main supervised learning dataset)
+
+**3. Validation data** - Held out dataset used to evaluate the surrogate model performance
+
+**4. lmfp_grid data** - LMFP grid Vegard style interpolation grid used as a reference for volume and voltage interpolations
+
+**5. Swelling dataset** – physics labelled. It comes from analytical formulae + endmember data.
 
 <p align="center">
   <img src="figures/Dataset.png" width="1000">
