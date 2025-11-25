@@ -192,7 +192,7 @@ V_{delith}(x) = x V_{FePO_4} + (1 - x) V_{MnPO_4}
 $$
 
 $$
-\Delta V\% = 100 \cdot \frac{V_{lith}(x) - V_{delith}(x)}{V_{delith}(x)}
+\Delta V\% = \frac{V_{lith}(x) - V_{delith}(x)}{V_{delith}(x)}
 $$
 
 $$
@@ -257,13 +257,14 @@ f^{(M)}(x) = f_0(x) + \sum_{m=1}^{M} \nu * h_m(x)
 $$
 
 Where:
-	•	f_0(x) = initial prediction (for squared loss → mean of y_i)
+
+	•	f_0(x) = initial prediction (for squared loss to mean of y_i)
 	
 	•	v in (0,1] = learning rate
 	
 	•	h_m(x) = regression tree fitted at boosting step m
 	
-	•	M = number of boosting stages (≈ 300)
+	•	M = number of boosting stages (≈ 500)
 
 Tree structure:
 Each regression tree partitions the feature space into leaf regions R_{m,j}.
