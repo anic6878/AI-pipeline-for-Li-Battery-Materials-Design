@@ -34,7 +34,7 @@ uncertain LMFP candidates for evaluation.
 **From Problem to Strategy:**
 
 Each LFMP candidate has multiple conflicting objectives like high average voltage, low formation energy
-(stability), minimal volume change, etc. Direct DFT evaluation is too expensive & static ML prediction lacks adaptivity. Hence, we need a framework that can predict, quantify uncertainty & adaptively decide where to sample next. So, here I use **surrogate models + Bayesian optimization** instead of brute force.
+(stability), minimal volume change, etc. Direct DFT evaluation is too expensive & static ML prediction lacks adaptivity. Hence, we need a framework that can predict, quantify uncertainty & adaptively decide where to sample next. So, here I use **surrogate models + Bayesian optimization**.
 
 ---
 
@@ -192,7 +192,7 @@ V_{delith}(x) = x V_{FePO_4} + (1 - x) V_{MnPO_4}
 $$
 
 $$
-\Delta V\% = {V_{lith}(x) - V_{delith}(x)}\/\{V_{delith}(x)}
+\Delta V\% = {V_{lith}(x) - V_{delith}(x)}/{V_{delith}(x)}
 $$
 
 $$
@@ -435,7 +435,7 @@ Diagonal panels show kernel-smoothed uncertainty histograms, revealing that:
 	
 	•	density uncertainties lie around 0.07–0.11 g/cm³.
 
-Off-diagonal scatter plots show how uncertainties co-vary across properties. Mild positive correlation appears between swelling and density uncertainties—consistent with both depending on Vegard-law–derived volume terms—while voltage uncertainties remain largely independent from the structural labels. Overall, the figure highlights that the surrogate ensemble is well-behaved, smooth, and stable, and that uncertainty structure is physically interpretable, providing a reliable basis for Gaussian-process Bayesian Optimization (GP-BO) acquisition functions such as Expected Improvement.
+Off-diagonal scatter plots show how uncertainties co-vary across properties. Mild positive correlation appears between swelling and density uncertainties, consistent with both depending on Vegard-law–derived volume terms; while voltage uncertainties remain largely independent from the structural labels. Overall, the figure highlights that the surrogate ensemble is well-behaved, smooth and stable, and that uncertainity structure is physically interpretable, providing a reliable basis for Gaussian-process Bayesian Optimization acquisition functions.
 
 
 ## 5.8. `active_learning.py` --> Gaussian Process Bayesian Optimization (GP-BO)
