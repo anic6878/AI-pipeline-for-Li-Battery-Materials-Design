@@ -584,7 +584,7 @@ export MP_API_KEY="your_actual_key"
 
 ## 8. Quick Start
 # Clone
-git clone [github.com/anic6878/Matgenai.git](https://github.com/anic6878/AI-pipeline-for-Li-Battery-Materials-Design)
+git clone (https://github.com/anic6878/AI-pipeline-for-Li-Battery-Materials-Design)
 
 
 # Environment
