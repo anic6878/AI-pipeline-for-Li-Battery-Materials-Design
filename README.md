@@ -124,7 +124,7 @@ scripts/
 ├── build_training_from_mp.py
 ├── build_swelling_dataset.py
 ```
-And the required (below-mentioned) data files can be located in `runs/run1/data' folder - `lmfp_vegard.csv` , `mp_summary.csv` , `swelling_labels.csv' 
+And the required (below-mentioned) data files can be located in `runs/run1/data` folder - `lmfp_vegard.csv` , `mp_summary.csv` , `swelling_labels.csv' 
 
 And in `data` folder as `train.csv` and `val.csv`
 
