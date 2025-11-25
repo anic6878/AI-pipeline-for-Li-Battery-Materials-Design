@@ -409,9 +409,9 @@ Given a CSV of candidate compositions: Loads trained ensemble models from `runs/
 </p>
 
 <p align="center">
-  <img src="figures/Pic_unc.png" width="600">
+  <img src="figures/Pic_unc.png" width="750">
   <br>
-  <em>Figure 5.3: Predicted Uncertainties</em>
+  <em>Figure 5.3: Predicted properties (from Surrogate model ensemble) Uncertainties</em>
 </p>
 
 **Figure 5.3**: Joint distribution of surrogate-model prediction uncertainties across LMFP candidates.
