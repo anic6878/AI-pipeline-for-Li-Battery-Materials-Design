@@ -6,8 +6,8 @@ Pipeline:
     1) Fetch/base MP data           (fetch_mp_data.py)
     2) Build swelling/physics data  (build_swelling_dataset.py)
     3) Predict properties           (predict_new.py)
-    4) Bayesian-style selection     (active_learning.py, UCB/EI/KG over μ, σ)
-    5) Optional VAE augmentation    (vae_generator.py)
+    4) Bayesian- selection          (active_learning.py)
+    5) VAE augmentation             (vae_generator.py)
 
 Usage example:
     python run_pipeline.py \
