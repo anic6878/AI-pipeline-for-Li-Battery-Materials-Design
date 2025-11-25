@@ -434,7 +434,7 @@ Diagonal panels show kernel-smoothed uncertainty histograms, revealing that:
 Off-diagonal scatter plots show how uncertainties co-vary across properties. Mild positive correlation appears between swelling and density uncertainties, consistent with both depending on Vegard-law–derived volume terms; while voltage uncertainties remain largely independent from the structural labels. Overall, the figure highlights that the surrogate ensemble is well-behaved, smooth and stable, and that uncertainity structure is physically interpretable, providing a reliable basis for Gaussian-process Bayesian Optimization acquisition functions.
 
 
-## 5.8. `active_learning.py` --> Gaussian Process Bayesian Optimization (GP-BO)
+## 5.8. `scripts/active_learning.py` --> Gaussian Process Bayesian Optimization 
 **A. Physics Filters**
 
 Candidates must satisfy. These guarantee BO does not pick unstable or unsafe chemistries.:
