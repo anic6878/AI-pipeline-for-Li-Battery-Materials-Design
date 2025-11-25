@@ -192,7 +192,7 @@ V_{delith}(x) = x V_{FePO_4} + (1 - x) V_{MnPO_4}
 $$
 
 $$
-\Delta V\% = 100 \* \fract{{V_{lith}(x) - V_{delith}(x)},{V_{delith}(x)}}
+\Delta V\% = 100 \cdot \frac{V_{lith}(x) - V_{delith}(x)}{V_{delith}(x)}
 $$
 
 $$
