@@ -550,7 +550,7 @@ Even if acquisition prefers similar high-value candidates, the Max–Min rule fo
 This repository is actively evolving toward a **full multi-objective, uncertainty-aware materials discovery framework**.
 Upcoming extensions include:
 
-- Successfully implementing BO on a more stricter objective and use it on large dataset
+- Successfully implementing BO on a more stricter objective and use it on large dataset (~10000)
 - Incorporating **SCFCs** (structure–composition feature correlations)    
 - Performing **cost-aware BO**  
 - Adding **constraint-based candidate pruning**    
@@ -562,6 +562,7 @@ Upcoming extensions include:
 ## 7.1 run_pipeline.py
 
 Coordinates an entire multi-cycle run:
+
 i) Build MP data
 
 ii) Build swelling labels
