@@ -8,7 +8,7 @@ This is a **CPU-friendly materials discovery AI pipeline** that integrates GradB
 
 (A) Battery performance & cost are heavily driven by the chemistry of cathode materials.
 
-(B) LiFePO₄ (LFP) is safe and low-cost but has moderate energy density. LiMnPO₄ (LMP) & doped
+(B) LiFePO4 (LFP) is safe and low-cost but has moderate energy density. Li-Mn (LMP) & doped
 variants can improve voltage and energy density but at the cost of stability.
 
 (C) Designing Li -(Fe, Mn, Ni, Mg)-PO₄ (LMFP) variants is a high-dimensional optimization problem,
