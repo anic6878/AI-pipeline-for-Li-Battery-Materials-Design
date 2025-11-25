@@ -1,6 +1,6 @@
 # AI-driven Materials Discovery for Li-ion Battery Cathodes
 
-This is a **CPU-friendly materials discovery AI pipeline** that integrates GradBoostReg & Bayesian Optimization for designing stable doped olivine Li-battery cathodes Li(Fe,Mn,Ni,Mg)PO4 & predicting their EV pack-level relevant properties 
+This is a **CPU-friendly materials discovery AI pipeline** that integrates GradBoost Regression & Bayesian Optimization for designing stable doped olivine Li-battery cathodes Li(Fe,Mn,Ni,Mg)PO4 & predicting their EV pack-level relevant properties 
 
 ---
 
