@@ -192,11 +192,11 @@ V_{delith}(x) = x V_{FePO_4} + (1 - x) V_{MnPO_4}
 $$
 
 $$
-\Delta V\% = 100 * {V_{lith}(x) - V_{delith}(x)}/{V_{delith}(x)}
+\Delta V\% = 100 \* \fract{{V_{lith}(x) - V_{delith}(x)},{V_{delith}(x)}}
 $$
 
 $$
-U_{cut}(x_{Fe}) \approx 4.30 - 0.20 \, x_{Fe}
+U_{cut}(x_{Fe}) \approx 4.30 - 0.20 \* x_{Fe}
 $$
 
 $$
