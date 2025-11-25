@@ -489,7 +489,7 @@ $$
 EI(x) = (\mu(x) - f^* - \xi)\Phi(z) + \sigma(x)\phi(z)
 $$
 
-**E Diversity Selection**
+**E. Diversity Selection**
 
 After scoring by EI, a max–min diversity filter spreads points across composition space. Prevents BO from collapsing to a tiny region of Fe–Mn space.
 
