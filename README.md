@@ -432,7 +432,7 @@ Diagonal panels show kernel-smoothed uncertainty histograms, revealing that:
 Off-diagonal scatter plots show how uncertainties co-vary across properties. Mild positive correlation appears between swelling and density uncertainties, consistent with both depending on Vegard-law–derived volume terms; while voltage uncertainties remain largely independent from the structural labels. Overall, the figure highlights that the surrogate ensemble is well-behaved, smooth and stable, and that uncertainity structure is physically interpretable, providing a reliable basis for Gaussian-process Bayesian Optimization acquisition functions.
 
 <p align="center">
-  <img src="figures/EV packlevel perfo.png" width="1000">
+  <img src="figures/EV packlevel.png" width="1000">
   <img src="figures/Radar plot.png" width="1000">
   <br>
   <em>Figure 5.3: EV pack-level performance of the top 5 candidate cathode compositions </em>
