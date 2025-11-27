@@ -433,6 +433,7 @@ Off-diagonal scatter plots show how uncertainties co-vary across properties. Mil
 
 <p align="center">
   <img src="figures/EV packlevel perfo.png" width="1000">
+  <img src="figures/Radar plot.png" width="1000">
   <br>
   <em>Figure 5.3: EV pack-level performance of the top 5 candidate cathode compositions </em>
 </p>
