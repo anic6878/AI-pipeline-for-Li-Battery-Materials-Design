@@ -412,7 +412,7 @@ Given a CSV of candidate compositions: Loads trained ensemble models from `runs/
   <em>Figure 5.2: Predicted properties (from Surrogate model ensemble) Uncertainties</em>
 </p>
 
-**Figure 5.2**: Joint distribution of surrogate-model prediction uncertainties across LMFP candidates.
+**Figure 5.2** shows the joint distribution of surrogate-model prediction uncertainties across LMFP candidates.
 This pair-plot summarizes the epistemic uncertainty estimated from the 7-member Gradient Boosting ensemble for four key predicted properties:
 (i) average voltage V_avg,
 (ii) formation energy above hull,
