@@ -404,30 +404,18 @@ Given a CSV of candidate compositions: Loads trained ensemble models from `runs/
 
 
 <p align="center">
-  <img src="figures/top_candidates.png" width="450">
+  <img src="figures/top_candidates.png" width="1000">
   <br>
-  <em> Figure 5.0: Top 3 predicted candidates from the surrogate model ensemble without any adaptive sampling or optimization.</em>
-</p>
-
-<p align="center">
-  <img src="figures/fe_mn_hull.png" width="450">
-  <br>
-  <em>Figure 5.1: Predicted E-hull landscape vs Fe & Mn mass fractions</em>
-</p>
-
-<p align="center">
-  <img src="figures/fe_mn_voltage.png" width="450">
-  <br>
-  <em>Figure 5.2: Predicted Average Voltage landscape vs Fe & Mn mass fractions</em>
+  <em> Figure 5.1: (A) Top 3 predicted candidates from the surrogate model ensemble without any adaptive sampling or optimization; (B) Predicted E-hull and (C) Average Voltage landscape vs Fe & Mn mass fractions.</em>
 </p>
 
 <p align="center">
   <img src="figures/Pic_unc.png" width="750">
   <br>
-  <em>Figure 5.3: Predicted properties (from Surrogate model ensemble) Uncertainties</em>
+  <em>Figure 5.2: Predicted properties (from Surrogate model ensemble) Uncertainties</em>
 </p>
 
-**Figure 5.3**: Joint distribution of surrogate-model prediction uncertainties across LMFP candidates.
+**Figure 5.2**: Joint distribution of surrogate-model prediction uncertainties across LMFP candidates.
 This pair-plot summarizes the epistemic uncertainty estimated from the 7-member Gradient Boosting ensemble for four key predicted properties:
 (i) average voltage V_avg,
 (ii) formation energy above hull,
@@ -438,7 +426,7 @@ Diagonal panels show kernel-smoothed uncertainty histograms, revealing that:
 
 	•	V_avg uncertainties are tightly concentrated (0.05–0.15 V),
 	
-	•	E_hull uncertainties fall mostly within 3.5–5.5 meV,
+	•	E_hull uncertainties fall mostly within 3.5–5.0 meV,
 	
 	•	swelling delta V% uncertainty clusters between 0.4–1.0%, and
 	
@@ -449,7 +437,7 @@ Off-diagonal scatter plots show how uncertainties co-vary across properties. Mil
 <p align="center">
   <img src="figures/EV packlevel perfo.png" width="1000">
   <br>
-  <em>Figure 5.4: EV pack-level performance of the top 5 candidate cathode compositions </em>
+  <em>Figure 5.3: EV pack-level performance of the top 5 candidate cathode compositions </em>
 </p>
 
 ## 5.8. `scripts/active_learning.py` --> Gaussian Process Bayesian Optimization 
