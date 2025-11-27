@@ -283,9 +283,7 @@ $$
 h_m(x) = \sum_{j=1}^{J_m} \gamma_{m,j}, \mathbf{1}{x \in R_{m,j}}
 $$
 
-Where:
-	•	J_m = number of leaf nodes
-	•	gamma_{m,j} = optimal leaf value
+Where: J_m = number of leaf nodes and gamma_{m,j} = optimal leaf value
 
 Training Objective: Squared Loss
 Gradient Boosting minimizes:
@@ -404,7 +402,7 @@ Given a CSV of candidate compositions: Loads trained ensemble models from `runs/
 
 
 <p align="center">
-  <img src="figures/top_candidates.png" width="1000">
+  <img src="" width="1000">
   <br>
   <em> Figure 5.1: (A) Top 3 predicted candidates from the surrogate model ensemble without any adaptive sampling or optimization; (B) Predicted E-hull and (C) Average Voltage landscape vs Fe & Mn mass fractions.</em>
 </p>
