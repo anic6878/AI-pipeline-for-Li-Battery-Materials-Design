@@ -400,9 +400,8 @@ Loads all trained GBR ensemble members + scalers. Aligns candidate features to t
 
 Given a CSV of candidate compositions: Loads trained ensemble models from `runs/final_models/artifacts/`. This file becomes the input to Bayesian Optimization.
 
-
 <p align="center">
-  <img src="" width="1000">
+  <img src="figures/Figure 5.1.png" width="1000">
   <br>
   <em> Figure 5.1: (A) Top 3 predicted candidates from the surrogate model ensemble without any adaptive sampling or optimization; (B) Predicted E-hull and (C) Average Voltage landscape vs Fe & Mn mass fractions.</em>
 </p>
